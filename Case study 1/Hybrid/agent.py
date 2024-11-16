@@ -261,7 +261,7 @@ class PPO(object):
                 torch.tensor(r_lst, dtype=torch.float), \
                 torch.tensor(s_prime_lst, dtype=torch.float), \
                 torch.tensor(logprob_d_lst, dtype=torch.float), \
-                torch.tensor(logprob_d_lst, dtype=torch.float), \
+                torch.tensor(logprob_c_lst, dtype=torch.float), \
                 torch.tensor(done_lst, dtype=torch.float), \
                 torch.tensor(dw_lst, dtype=torch.float),\
                 torch.tensor(mask_lst, dtype=torch.bool),
