@@ -10,7 +10,6 @@ This case study compares the performance of discrete and hybrid masked PPO agent
 ## Case Study 2
 In this case study, the performance of discrete and hybrid masked PPO agents is compared for generating a chemical process flowsheet for the reversible reaction:
 $$ \text{CH}_3\text{OH} \rightleftharpoons \text{DME} + \text{H}_2\text{O}$$
-
 Despite achieving lower overall rewards, the hybrid agent produces more complex and interesting flowsheets. These flowsheets are able to reintegrate more mass into the system, offering potential sustainability benefits. The example was executed using a hybrid Python - ASPEN Plus platform, in which the usage of multiple unit operations was featured.
 
 ## Code Access
